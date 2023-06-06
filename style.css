@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  display: grid;
+  display: flex;
   grid-template-rows: 50px 1fr 50px; /* Adjust the heights of the rows as needed */
   min-height: 100vh; /* Ensure the grid covers the full height of the viewport */
 }
