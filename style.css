@@ -5,7 +5,7 @@
 body {
   margin: 0;
   display: grid;
-  grid-template-rows: 1fr 50px 1fr; /* Adjust the heights of the rows as needed */
+  grid-template-rows: 1fr auto 1fr; /* Adjust the heights of the rows as needed */
   min-height: 100vh; /* Ensure the grid covers the full height of the viewport */
 }
 
