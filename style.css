@@ -1,12 +1,12 @@
 * {
-  font-family: sans-serif;
+  font-family: "Ysabeau", sans-serif;
 }
 
 body {
   margin: 0;
   display: grid;
   grid-template-rows: 1fr auto 1fr; /* Adjust the heights of the rows as needed */
-  min-height: 50vh; /* Ensure the grid covers the full height of the viewport */
+  min-height: 30vh; /* Ensure the grid covers the full height of the viewport */
 }
 
 header,
