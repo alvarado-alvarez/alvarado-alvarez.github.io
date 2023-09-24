@@ -1,8 +1,11 @@
 * {
   font-family: "Ysabeau", sans-serif;
+  font-size: 3vh;
 }
 
 body {
+  background-color: #4e4e4e;
+  color: #fff;
   margin: 0;
   display: grid;
   grid-template-rows: 1fr auto 1fr; /* Adjust the heights of the rows as needed */
@@ -11,7 +14,8 @@ body {
 
 header,
 footer {
-  background-color: #333; /* Stripe color */
+  height: 10vh;
+  background-color: #2d2c2c; /* Stripe color */
   color: #fff;
   display: flex;
   align-items: center;
@@ -24,4 +28,22 @@ header {
 
 footer {
   grid-row: 3; /* Position the footer in the third row */
+}
+
+main {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+img {
+  height: 40vh;
+  margin: 5%;
+}
+
+a {
+  color: #84b9ff;
+}
+
+a:visited {
+  color: #ffeb88;
 }
