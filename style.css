@@ -70,3 +70,7 @@ a:visited.dark-mode {
   width: 100px; 
   height: auto;
 }
+
+.container {
+  float: left;
+}
