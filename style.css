@@ -18,7 +18,7 @@ body.dark-mode {
 
 header,
 footer {
-  height: 10vh;
+  height: 2.0em;
   background-color: #4B5842; 
   color: #151515; 
   display: flex;
@@ -46,7 +46,7 @@ main {
 }
 
 img {
-  height: 40vh;
+  height: 15.0em;
   margin: 5%;
 }
 
@@ -67,7 +67,7 @@ a:visited {
 }
 
 .scaled-svg {
-  width: 100px; 
+  width: 6.0em; 
   height: auto;
 }
 
