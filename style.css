@@ -63,29 +63,30 @@ img {
 
 
 body.dark-mode {
-  background-color: #151515;
-  color: #EEEEEE;
+  background-color: #464645;
+  color: #F6F7DD;
 }
 .dark-mode header {
-  background-color: #E61970; 
-  color: #151515;
+  background-color: #ADAAF5; 
+  color: #101018;
 }
 .dark-mode footer {
-  background-color: #151515;
-  color: #EEEEEE;
+  background-color: #464645;
+  color: #F6F7DD;
 }
 
 .dark-mode a {
-  color: #19E68F;
+  color: #ADAAF5;
 }
 
 .dark-mode a:visited {
-  color: #19E68F;
+  color: #ADAAF5;
 }
 
 .scaled-svg {
   width: 6.0em; 
   height: auto;
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
