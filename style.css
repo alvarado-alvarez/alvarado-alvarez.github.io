@@ -60,8 +60,8 @@ main {
 }
 
 .carlos_pic {
-  height: 12em;
-  aspect-ratio: 1.33;
+  height: 15em;
+  aspect-ratio: 0.75;
 }
 
 
@@ -155,7 +155,7 @@ body.dark-mode {
   }
 
   .carlos_pic {
-    height: 10em;
-    aspect-ratio: 1.33;
+    height: 12em;
+    aspect-ratio: 0.75;
   }
 }
