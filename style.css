@@ -40,11 +40,15 @@ footer {
 }
 
 a {
-  color: #52154E; 
+  color: #111344; 
 }
 
 a:visited { 
-  color: #52154E; 
+  color: #111344; 
+}
+
+a:hover {
+  color: #FCAB64;
 }
 
 main {
@@ -52,6 +56,31 @@ main {
   padding-right: 10%;
   display: flex;
   flex-direction: column;
+}
+
+body.dark-mode {
+  background-color: #222725;
+  color: #EDF4ED;
+}
+.dark-mode header {
+  background-color: #79B791; 
+  color: #222725;
+}
+.dark-mode footer {
+  background-color: #222725;
+  color: #EDF4ED;
+}
+
+.dark-mode a {
+  color: #79B791;
+}
+
+.dark-mode a:visited {
+  color: #79B791;
+}
+
+.dark-mode a:hover {
+  color: #DE9E36;
 }
 
 .about_me {
@@ -62,28 +91,6 @@ main {
 .carlos_pic {
   height: 15em;
   aspect-ratio: 0.75;
-}
-
-
-body.dark-mode {
-  background-color: #0D1821;
-  color: #DBF4AD;
-}
-.dark-mode header {
-  background-color: #3F612D; 
-  color: #0D1821;
-}
-.dark-mode footer {
-  background-color: #0D1821;
-  color: #DBF4AD;
-}
-
-.dark-mode a {
-  color: #B07156;
-}
-
-.dark-mode a:visited {
-  color: #B07156;
 }
 
 .toggler {
@@ -158,4 +165,38 @@ body.dark-mode {
     height: 12em;
     aspect-ratio: 0.75;
   }
+}
+
+ul {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-self: center;
+  padding-inline-start: 0px;
+  width: 100%;
+  gap: 20px;
+}
+
+.sem_entry {
+  flex-grow: 1;
+  outline: 1px solid #111344;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 15px;
+  color: #111344;
+  transition: all smooth 0.8s;
+}
+
+.dark-mode .sem_entry {
+  flex-grow: 1;
+  outline: 1px solid #EDF4ED;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 15px;
+  color: #EDF4ED;
+  transition: all smooth 0.8s;
 }
