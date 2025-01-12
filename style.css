@@ -37,6 +37,8 @@ footer {
   font-size: 2.0em;
   font-weight: bold;
   grid-row: 3; 
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 a {
