@@ -45,13 +45,20 @@ a {
   color: #111344; 
 }
 
-a:visited { 
-  color: #111344; 
-}
 
 a:hover {
   color: #FCAB64;
 }
+
+.yuyuan {
+  color: #111344; 
+  text-decoration: none;
+}
+
+.yuyuan:hover {
+  color: olive;
+}
+
 
 main {
   padding-left: 10%;
@@ -77,12 +84,17 @@ body.dark-mode {
   color: #79B791;
 }
 
-.dark-mode a:visited {
-  color: #79B791;
-}
-
 .dark-mode a:hover {
   color: #DE9E36;
+}
+
+.dark-mode .yuyuan {
+  color: #EDF4ED;
+  text-decoration: none;
+}
+
+.dark-mode .yuyuan:hover {
+  color: olive;
 }
 
 .about_me {
