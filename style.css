@@ -59,6 +59,16 @@ a:hover {
   color: olive;
 }
 
+.felix {
+  color: #111344; 
+  text-decoration: none;
+}
+
+.felix:hover {
+  color: black;
+  background-color: red;
+}
+
 
 main {
   padding-left: 10%;
