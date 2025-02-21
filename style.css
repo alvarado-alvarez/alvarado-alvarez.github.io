@@ -107,6 +107,16 @@ body.dark-mode {
   color: olive;
 }
 
+.dark-mode .felix {
+  color: #EDF4ED;
+  text-decoration: none;
+}
+
+.dark-mode .felix:hover {
+  color: black;
+  background-color: red;
+}
+
 .about_me {
   display: flex;
   gap: 30px;
