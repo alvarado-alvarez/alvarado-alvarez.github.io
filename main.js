@@ -1,9 +1,15 @@
 const body = document.body;
 
-svg = document.getElementById('toggler');
+toggleButton = document.getElementById('toggler');
     
-svg.addEventListener('click', () => {
+toggleButton.addEventListener('click', () => {
     toggleDarkMode();
+})
+
+homeButton = document.getElementById('home');
+
+homeButton.addEventListener('click', () => {
+  backHome();
 })
 
 // Function to enable dark mode
@@ -33,3 +39,8 @@ function enableDarkMode() {
       enableDarkMode();
     }
   };
+
+  // Go back to home
+  function backHome() {
+    window.location.href = '/index.html';
+  }
