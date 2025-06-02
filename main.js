@@ -6,11 +6,11 @@ toggleButton.addEventListener('click', () => {
     toggleDarkMode();
 })
 
-homeButton = document.getElementById('home');
+// homeButton = document.getElementById('home');
 
-homeButton.addEventListener('click', () => {
-  backHome();
-})
+// homeButton.addEventListener('click', () => {
+//   backHome();
+// })
 
 // Function to enable dark mode
 function enableDarkMode() {
@@ -34,11 +34,10 @@ function enableDarkMode() {
   }
 
   // Apply the saved theme on page load
-  window.onload = function () {
+  document.addEventListener('DOMContentLoaded', () => {
     if (localStorage.getItem("theme") === "dark") {
-      enableDarkMode();
-    }
-  };
+      enableDarkMode();}
+    })
 
   // Go back to home
   function backHome() {
