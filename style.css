@@ -5,7 +5,7 @@
 
 body {
   background-color: #FFFFFF; 
-  color: #111344; 
+  color: #14110F; 
   display: flex;
   flex-direction: column;
   min-height: 30vh; 
@@ -14,7 +14,7 @@ body {
 
 header {
   height: 2.3em;
-  background-color: #111344; 
+  background-color: #14110F; 
   color: #FFFFFF; 
   display: sticky;
   align-items: center;
@@ -30,7 +30,7 @@ header {
 footer {
   height: 2.3em;
   background-color: #FFFFFF; 
-  color: #111344; 
+  color: #14110F; 
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -42,16 +42,17 @@ footer {
 }
 
 a {
-  color: #111344; 
+  color: #20A4F3; 
+  text-decoration: none;
 }
 
 
 a:hover {
-  color: #FCAB64;
+  text-decoration: underline;
 }
 
 .yuyuan {
-  color: #111344; 
+  color: #14110F; 
   text-decoration: none;
 }
 
@@ -60,7 +61,7 @@ a:hover {
 }
 
 .felix {
-  color: #111344; 
+  color: #14110F; 
   text-decoration: none;
 }
 
@@ -78,24 +79,16 @@ main {
 }
 
 body.dark-mode {
-  background-color: #1c1c1d;
+  background-color: #14110F;
   color: #EDF4ED;
 }
 .dark-mode header {
-  background-color: #79B791; 
-  color: #1c1c1d;
+  background-color: #20A4F3; 
+  color: #14110F;
 }
 .dark-mode footer {
-  background-color: #1c1c1d;
+  background-color: #14110F;
   color: #EDF4ED;
-}
-
-.dark-mode a {
-  color: #79B791;
-}
-
-.dark-mode a:hover {
-  color: #DE9E36;
 }
 
 .dark-mode .yuyuan {
@@ -197,7 +190,7 @@ body.dark-mode {
 
   header {
     height: 4.6em;
-    background-color: #111344; 
+    background-color: #14110F; 
     color: #DAE0F2; 
     display: sticky;
     align-items: center;
@@ -234,13 +227,13 @@ ul {
 
 .sem_entry {
   flex-grow: 1;
-  outline: 1px solid #111344;
+  outline: 1px solid #14110F;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 15px;
-  color: #111344;
+  color: #14110F;
   transition: all smooth 0.8s;
 }
 
