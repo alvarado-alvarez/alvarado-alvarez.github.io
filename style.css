@@ -3,9 +3,20 @@
   font-size: 3vh;
 }
 
+:root {
+  --bg-color: #FFFFFF; 
+  --color: #14110F;
+  --highlight: #20A4F3; 
+  --dark-bg-color: #14110F; 
+  --dark-color: #FFFFFF;
+
+  --yuyuan: #808000;
+  --felix: #FF0000;
+}
+
 body {
-  background-color: #FFFFFF; 
-  color: #14110F; 
+  background-color: var(--bg-color); 
+  color: var(--color);
   display: flex;
   flex-direction: column;
   min-height: 30vh; 
@@ -14,8 +25,8 @@ body {
 
 header {
   height: 2.3em;
-  background-color: #14110F; 
-  color: #FFFFFF; 
+  background-color: var(--color); 
+  color: var(--bg-color); 
   display: sticky;
   align-items: center;
   justify-content: center;
@@ -29,8 +40,8 @@ header {
 
 footer {
   height: 2.3em;
-  background-color: #FFFFFF; 
-  color: #14110F; 
+  background-color: var(--bg-color); 
+  color: var(--color);  
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -42,32 +53,13 @@ footer {
 }
 
 a {
-  color: #20A4F3; 
+  color: var(--highlight); 
   text-decoration: none;
 }
 
 
 a:hover {
   text-decoration: underline;
-}
-
-.yuyuan {
-  color: #14110F; 
-  text-decoration: none;
-}
-
-.yuyuan:hover {
-  color: olive;
-}
-
-.felix {
-  color: #14110F; 
-  text-decoration: none;
-}
-
-.felix:hover {
-  color: black;
-  background-color: red;
 }
 
 
@@ -79,35 +71,16 @@ main {
 }
 
 body.dark-mode {
-  background-color: #14110F;
-  color: #EDF4ED;
+  background-color: var(--dark-bg-color);
+  color: var(--dark-color);
 }
 .dark-mode header {
-  background-color: #20A4F3; 
-  color: #14110F;
+  background-color: var(--highlight); 
+  color: var(--dark-bg-color);
 }
 .dark-mode footer {
-  background-color: #14110F;
-  color: #EDF4ED;
-}
-
-.dark-mode .yuyuan {
-  color: #EDF4ED;
-  text-decoration: none;
-}
-
-.dark-mode .yuyuan:hover {
-  color: olive;
-}
-
-.dark-mode .felix {
-  color: #EDF4ED;
-  text-decoration: none;
-}
-
-.dark-mode .felix:hover {
-  color: black;
-  background-color: red;
+  background-color: var(--dark-bg-color);
+  color: var(--dark-color);
 }
 
 .about_me {
@@ -119,6 +92,8 @@ body.dark-mode {
   height: 15em;
   aspect-ratio: 0.75;
 }
+
+/* Interactive buttons */
 
 .homeButton {
   width: 150px; 
@@ -177,12 +152,15 @@ body.dark-mode {
   }
 }
 
+
+/* Smartphone changes */
 @media (min-width: 1051px) {
   .sp-only {
     display: none;
   }
 }
 
+/* Smartphone changes */
 @media (max-width: 1050px) {
   .pc-only {
     display: none;
@@ -215,6 +193,8 @@ body.dark-mode {
   }
 }
 
+/* Seminar page styles */
+
 ul {
   display: flex;
   flex-grow: 1;
@@ -224,6 +204,7 @@ ul {
   width: 100%;
   gap: 20px;
 }
+
 
 .sem_entry {
   flex-grow: 1;
@@ -247,4 +228,44 @@ ul {
   border-radius: 15px;
   color: #EDF4ED;
   transition: all smooth 0.8s;
+}
+
+/* Friend styles */
+
+.carlos {
+  color: var(--highlight); 
+  text-decoration: none;
+}
+
+.carlos:hover {
+  text-decoration: underline;
+}
+
+.yuyuan {
+  color: var(--yuyuan); 
+  text-decoration: none;
+}
+
+.yuyuan:hover {
+  text-decoration: underline;
+}
+
+.felix {
+  color: var(--color); 
+  text-decoration: none;
+}
+
+.felix:hover {
+  color: var(--adark-color);
+  background-color: var(--felix);
+}
+
+.dark-mode .felix {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
+.dark-mode .felix:hover {
+  color: var(--dark-color);
+  background-color: var(--felix);
 }
