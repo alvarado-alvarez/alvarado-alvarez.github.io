@@ -6,7 +6,9 @@
 :root {
   --bg-color: #FFFFFF; 
   --color: #14110F;
-  --highlight: #20A4F3; 
+  --primary: #20A4F3; 
+  --secondary: #C879FF;
+  --tertiary: #379634;
   --dark-bg-color: #14110F; 
   --dark-color: #FFFFFF;
 
@@ -53,7 +55,7 @@ footer {
 }
 
 a {
-  color: var(--highlight); 
+  color: var(--primary); 
   text-decoration: none;
 }
 
@@ -75,7 +77,7 @@ body.dark-mode {
   color: var(--dark-color);
 }
 .dark-mode header {
-  background-color: var(--highlight); 
+  background-color: var(--primary); 
   color: var(--dark-bg-color);
 }
 .dark-mode footer {
@@ -233,11 +235,20 @@ ul {
 /* Friend styles */
 
 .carlos {
-  color: var(--highlight); 
+  color: var(--primary); 
   text-decoration: none;
 }
 
 .carlos:hover {
+  text-decoration: underline;
+}
+
+.genericFriend {
+  color: var(--secondary); 
+  text-decoration: none;
+}
+
+.genericFriend:hover {
   text-decoration: underline;
 }
 
