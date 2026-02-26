@@ -14,6 +14,7 @@
 
   --yuyuan: #808000;
   --felix: #FF0000;
+  --azelie: #bf94e4;
 }
 
 body {
@@ -258,6 +259,15 @@ ul {
 }
 
 .yuyuan:hover {
+  text-decoration: underline;
+}
+
+.azelie {
+  color: var(--azelie); 
+  text-decoration: none;
+}
+
+.azelie:hover {
   text-decoration: underline;
 }
 
